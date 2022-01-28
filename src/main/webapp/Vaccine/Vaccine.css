@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    height: 300px; 
+  }
+  html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+  
+  .left {
+    width: 20%;
+    position: fixed;
+    overflow: auto;
+    margin-top: 100px; 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right: 3px solid rgb(236, 236, 236);
+    height: 100vh;
+  }
+  
+  .right {
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 100px; 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Clear floats after the columns */
+h2{
+  align-self: center;
+}
+  .title
+  {
+    padding-left: 2%;
+    text-align: left;
+    background-color: #2d2188;
+    position: fixed;
+    width: 100%;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    display: flex;
+  }
+.location
+{
+  display: flex;
+  flex-direction: column;
+}
+.location_item
+{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+.location_item a 
+{
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  bottom: 30%;
+  align-self: center;
+  text-decoration: none;
+  color-adjust: black;
+}
+.location_item button
+{
+  border: 0px solid black;
+  background-color: white;
+}
+.location_item button:hover
+{
+  background-color: yellow;
+}
+.location_item img
+{
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  border: 0px solid black;
+}
+.location_item:hover a
+{
+  color: white;
+  background-color: #2d2188;
+  
+ 
+}
+.location_item:hover
+{
+  color: white;
+  background-color: #2d2188;
+ cursor: pointer;
+}
+
+span
+{
+  color: red;
+}
+.active
+{
+	border-left:6px solid #2d2188;
+
+}
+.activea
+{
+  background-color: #2d2188;
+  color: white;
+}
+.task{
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+.table_accountUser
+{
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    border: 1px solid #eeecec;
+    text-align: left;
+    padding: 8px;
+  }
+th
+{
+    border: 1px solid #eeecec;
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(65, 65, 134);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.title_schedule
+{
+    text-align: center;
+
+
+}
+.detail_schedule:hover
+{
+    background-color: rgb(78, 78, 78);
+    color: white;
+    cursor: pointer;
+    
+}
+.form_schedule
+{
+  width: 90%;
+}
+.search_input
+{
+  width: 200px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 10px;
+}
+.Delete_button img
+{
+  width: 20px;
+  height: 20px;  
+  margin-top: 2px;
+}
+.delete
+{
+  padding: 6px 12px;
+  background-color: rgb(253, 175, 175);
+  color: white;
+	border: 0px;
+	border-radius: 3px;
+}
+.Delete_button
+{
+  background-color: rgb(253, 175, 175);
+  width: 70px;
+  border: 1px solid rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  text-align: center  ;
+  float: right;
+  margin-right: 2%;
+  margin-top:10px ;
+  border-radius: 3px;
+}
+.Delete_button:hover .delete
+{
+  background-color: rgb(250, 99, 99);
+  cursor: pointer;
+}
+.Delete_button:hover 
+{
+  background-color: rgb(250, 99, 99);
+  cursor: pointer;
+}
+.Add_button img{
+    width: 20px;
+  height: 20px;  
+  margin-top: 4px;
+}
+.Add_button
+{
+  background-color: rgb(132, 200, 255);
+  width: auto;
+  border: 1px solid rgb(132, 200, 255);
+  display: flex;
+  justify-content: center;
+  text-align: center  ;
+  float: right;
+  margin-right: 15%;
+  height: 30px;
+  margin-top:10px ;
+  border-radius: 3px;
+}
+.Add_button .Add{
+    border: 0px;
+    background-color: rgb(132, 200, 255);
+}
+.Add_button:hover .Add{
+    background-color: rgb(21, 142, 255);
+  cursor: pointer;
+}
+.Add_button:hover{
+    background-color: rgb(21, 142, 255);
+  cursor: pointer;
+}

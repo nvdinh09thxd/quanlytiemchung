@@ -1,0 +1,122 @@
+  html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.table_accountUser
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title_schedule h2{
+  align-self: center;
+  
+}
+.title_schedule img
+{
+	margin-right: 40px;
+}
+  .title_schedule
+  {
+    padding-left: 2%;
+    text-align: left;
+    background-color: #2d2188;
+    position: fixed;
+    width: 100%;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    display: flex;
+  }
+td {
+    border: 1px solid #eeecec;
+    text-align: left;
+    padding: 8px;
+  }
+th
+{
+    border: 1px solid #eeecec;
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(65, 65, 134);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.title_schedule
+{
+    text-align: center;
+
+
+}
+.detail_schedule:hover
+{
+    background-color: rgb(78, 78, 78);
+    color: white;
+    cursor: pointer;
+    
+}
+.deletebutton
+{
+    width: 6%;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid rgb(255, 32, 32);
+    background-color: rgb(255, 144, 144);
+    position: absolute;
+    left: 78%;
+    min-width: 70px;
+}
+.deletebutton:hover
+{
+    cursor: pointer;
+    background-color: rgb(52, 105, 252);
+    background-color: rgb(250, 94, 94);
+    box-shadow: 1px 2px #888;
+}
+.submitbutton
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+.content
+{
+    display: block;
+    margin-top: 100px
+}
+.datePicker
+{
+    width: 11%;
+    position: absolute;
+    left: 2%;
+    top: 115px;
+    height: 30px;
+    min-width: 130px;
+}
+.search input[type=text]
+{
+    position: absolute;
+    left: 2%;
+    top:90px;
+    min-width: 130px;
+}
+.search input[type=submit]
+{
+    position: absolute;
+    left: 2%;
+    top: 150px;
+    background-color: rgb(243, 243, 186);
+    border: 2px solid rgb(245, 245, 114);
+    min-width: 50px;
+    padding: 5px;
+    box-shadow: 2px 2px #888;
+    width: 5%;
+}

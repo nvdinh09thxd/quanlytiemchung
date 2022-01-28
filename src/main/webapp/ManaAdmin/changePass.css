@@ -1,0 +1,108 @@
+input[type=text]
+{
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 55%;
+
+}
+input[type=password]
+{
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 27px;
+    width: 55%;
+
+}
+.title_user
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 32%;
+
+
+}
+.title_pass
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+
+
+}
+.title_pass2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 15%;
+
+
+}
+.login_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white ;
+    margin-top: 20vh;
+    
+}
+.login_div2
+{
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 7vh;
+    
+}
+.title_login_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+
+}
+.form_login
+{
+    background-color: white ;
+    width: 30%;
+    text-align: center;
+    min-width: 200px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-radius: 7px;
+    color: #111;
+
+}
+.login_button
+{
+    background-color: #238636;
+    width: 20%;
+    border: 0px;
+    border-radius: 4px;
+    margin-left: 32%;
+    height: 30px;
+    color: whitesmoke;
+    min-width: 74px;
+    outline-color: #0d11a5;
+    margin-bottom: 10px;
+    
+    
+}
+.login_button:hover
+{
+    cursor: pointer;
+    background-color: #06240c;
+    color: white;
+
+}
+.background_body
+{
+background-color: #9cd8fc;
+}      
+.login_a
+{
+    color: #0d11a5;
+    color-adjust:#0d11a5 ;   
+    margin-left: 20%; 
+    
+    
+    
+}

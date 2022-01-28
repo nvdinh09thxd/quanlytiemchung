@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+h1{
+	    font-size: 60px;
+    margin-left: 32px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(104, 104, 250);
+    padding-top: 50px;
+}
+.rs{
+	
+	    background-color: white;
+    width: 1000px;
+    height: 200px;
+    margin: 20px auto;
+       border-radius: 50px;
+      box-shadow:0 0 30px rgba(0, 0, 0, 0.3) ;
+
+}
+body{
+    background-color: #9cd8fc;
+}

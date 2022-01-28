@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+  
+  .left {
+    width: 20%;
+    position: fixed;
+    overflow: auto;
+    margin-top: 100px; 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right: 3px solid rgb(236, 236, 236);
+    height: 100vh;
+  }
+  
+  .right {
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 100px; 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Clear floats after the columns */
+h2{
+  align-self: center;
+}
+  .title
+  {
+    padding-left: 2%;
+    text-align: left;
+    background-color: #2d2188;
+    position: fixed;
+    width: 100%;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    display: flex;
+  }
+.location
+{
+  display: flex;
+  flex-direction: column;
+}
+.location_item
+{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.location_item a 
+{
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  bottom: 30%;
+  align-self: center;
+  text-decoration: none;
+  color-adjust: black;
+}
+.location_item button
+{
+  border: 0px solid black;
+  background-color: white;
+}
+.location_item button:hover
+{
+  background-color: yellow;
+}
+.location_item img
+{
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  border: 0px solid black;
+}
+.location_item:hover a
+{
+  color: white;
+  background-color: #2d2188;
+  
+ 
+}
+.location_item:hover
+{
+  color: white;
+  background-color: #2d2188;
+ cursor: pointer;
+}
+
+span
+{
+  color: red;
+}
+.active
+{
+ border-left:6px solid #2d2188;
+}
+.activea
+{
+  background-color: #2d2188;
+  color: white;
+}
+.task{
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+.table_accountUser
+{
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    border: 1px solid #eeecec;
+    text-align: left;
+    padding: 8px;
+  }
+th
+{
+    border: 1px solid #eeecec;
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(65, 65, 134);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.title_schedule
+{
+    text-align: center;
+
+
+}
+.detail_schedule:hover
+{
+    background-color: rgb(78, 78, 78);
+    color: white;
+    cursor: pointer;
+    
+}
+.form_schedule
+{
+  width: 90%;
+}
+.search_input
+{
+  width: 200px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 10px;
+}
+.Delete_button img
+{
+  width: 20px;
+  height: 20px;  
+  margin-top: 2px;
+}
+.delete
+{
+  padding: 6px 12px;
+  background-color: rgb(253, 175, 175);
+  color: white;
+border: 0px;
+}
+.Delete_button
+{
+  background-color: rgb(253, 175, 175);
+  width: 70px;
+  border: 1px solid rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  text-align: center  ;
+  float: right;
+  margin-right: 2%;
+  margin-top:10px ;
+}
+.Delete_button:hover .delete
+{
+  background-color: rgb(250, 99, 99);
+  cursor: pointer;
+}
+.Delete_button:hover 
+{
+  background-color: rgb(250, 99, 99);
+  cursor: pointer;
+}
+.form_schedule h2
+{
+    margin-left: 23%;
+}
+.row1 {
+    display: flex;
+  }
+  
+.column1 {
+    flex: 65%;
+    padding: 10px;
+    height: 300px; 
+    
+}
+.column2 {
+    flex: 35%;
+    padding: 10px;
+    height: 300px; 
+}
+.dad
+{
+    
+}
+.child
+{
+    margin: 15px;
+}
+.inputtext
+{
+    width: 80%;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(151, 151, 151);
+    
+}
+
+.Delete_cons
+{
+  float: right;
+}
+.table_detail
+{
+  margin-top: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table_detail td,th
+{
+  border: 0px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  color: black;
+}
+.UpdateVac
+{
+ padding: 5px 6px;
+ background-color: #2d2188;
+ color: white;
+}
+.divUpdateVac
+{
+  text-align: center;
+  margin-top: 110px;
+  position: fixed;
+  margin-left: 30%;
+}
+.UpdateVac:hover
+{
+  background-color: #b9b0ff;
+  cursor: pointer;
+}

@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+div{
+  
+}
+
+body{
+    background-color: #9cd8fc;
+}
+form{
+	margin-bottom:40px;
+}
+
+.two-rows{
+    width: 55%;
+    height: 45%;
+    margin-right:30px;
+    float: right;
+     border-radius: 10px;
+   margin-bottom:5px;
+}
+#the-day{
+    background-color:rgb(224, 237, 255);
+    height:80%;
+    width: 25%;
+    margin: 0;
+    float: left;
+    margin-top:15px;
+    margin-left:30px;
+    border-radius:20px;
+}
+#trangthai{
+	margin-top:10px;
+	border-color: red;
+	border:solid 1px;
+	background-color:#d3fff8;
+	height:35%;
+
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: blue;
+}
+h2 {
+    text-align: center;
+    font-style: oblique;
+    color: blue;
+        font-size: 20px;
+}
+.container{
+      background-color:white;
+      height:160px;
+      width: 689px;
+      border-radius:20px;
+      /* margin-left: 20%; */
+      /* margin-right: 30%; */
+      position: relative;
+      display:inline-block;
+}
+#textcb{
+    
+    display:inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
+   color: white;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#selectcb{
+    display: inline-block;
+    height:40px;
+   
+}
+.input_cb{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
+    height:30px;
+}
+
+#SubmitLich{
+    height:50px;
+    width: 110px;
+    border-radius: 5px;
+}
+#SubmitLich:hover{
+   background-color:red;
+}
+.del{
+	background-image: url("./images/del_icon.png");
+	background-size:80px 80px;
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 100px;
+	display:inline-block;
+	float:left;
+	margin-top:25px;
+	border-radius:20px;
+
+}

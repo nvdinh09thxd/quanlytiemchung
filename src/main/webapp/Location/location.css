@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .column {
+    float: left;
+    height: 300px; 
+  }
+  html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+  
+  .left {
+    width: 20%;
+    position: fixed;
+    overflow: auto;
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right: 2px solid rgb(235, 235, 235);
+    height: 100vh;
+  }
+  
+  .right {
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 50px; 
+    display: flex;
+    justify-content: center;
+    height: 150vh;
+  }
+  
+h2{
+  align-self: center;
+}
+  .title
+  {
+    padding-left: 2%;
+    text-align: left;
+    background-color: #2d2188;
+    position: fixed;
+    width: 100%;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    display: flex;
+  }
+.location
+{
+  display: flex;
+  flex-direction: column;
+
+}
+.location_item
+{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  box-sizing: border-box;
+  border: 2px solid rgb(238, 234, 234);
+  
+  
+}
+.location_item_button
+{
+	width: 100%;
+  height: 50px;
+  display: flex;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.location_item_button button
+{
+	border: 0px;
+	background-color: white;
+	margin: 0 4% 0 4%;
+	box-shadow: 0px 4px 4px 0px #d5d5d5;
+	border-radius: 5px;
+	
+}
+.location_item_button button:hover
+{
+	background-color: #ddf9fd;
+	box-shadow: 0px 6px 6px 0px #d5d5d5;
+	cursor: pointer;
+	
+}
+.location_item_button img
+{
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+
+.location_item a 
+{
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  bottom: 30%;
+  align-self: center;
+  text-decoration: none;
+}
+.location_item img
+{
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.location_item:hover a
+{
+  color: white;
+  background-color: #2d2188;
+  
+ 
+}
+.location_item:hover
+{
+  color: white;
+  background-color: #2d2188;
+ cursor: pointer;
+}
+.form_location
+{
+  width: 70%;
+  background-color: rgb(241, 240, 240);
+  margin-top: 30px;
+  border-radius: 10px;
+  height: 120vh;
+  overflow: hidden;
+}
+.form_location h2
+{
+  text-align: center;
+  
+}
+label{
+  margin-left: 10px;
+}
+.input_form
+{
+  margin: 10px;
+
+}
+.input_form_input
+{
+  width: 80%;
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid black;
+  
+}
+.item_number
+{
+  width: 66%;
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid black;
+  margin-left: 16%;
+  margin-top: 10px
+}
+.input_form_select
+{
+  width: 80%;
+  padding: 7px;
+  border-radius: 7px;
+}
+.item
+{
+  margin-left: 15%;
+}
+.item_radio
+{
+  display: flex;
+  
+}
+.item_radio div{
+  margin-left: 15%;
+}
+.item_submit 
+{
+  text-align: center;
+  margin: 20px;
+}
+.item_submit_s
+{
+  height: 40px;
+  background-color:#2d2188 ;
+  color: white;
+  text-align: center;
+}
+.item_submit_s:hover
+{
+  background-color:#4029f3 ;
+  color: white;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px 4px #c4c4c4;
+}
+span
+{
+  color: red;
+}
+.active
+{
+  background-color: #2d2188;
+  color: white;
+}
+.activea
+{
+  background-color: #2d2188;
+  color: white;
+}
+.replaceFormButton
+{
+	width: 30%;
+	height: 40px;
+	position: absolute;
+	top: 82vh; 
+}
+.item_submit_del
+{
+	height: 40px;
+  background-color:#ffc6c6 ;
+  color: black;
+  border:1px solid red;
+  text-align: center;
+}
+.item_submit_del:hover {
+	cursor: pointer;
+	background-color: #ff5555;
+	box-shadow: 4px 4px 4px 4px #c4c4c4;
+}

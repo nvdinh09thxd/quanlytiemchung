@@ -1,0 +1,116 @@
+  html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.table_accountUser
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content
+{
+	margin-top: 100px;
+}
+td {
+    border: 1px solid #eeecec;
+    text-align: left;
+    padding: 8px;
+  }
+th
+{
+    border: 1px solid #eeecec;
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(65, 65, 134);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.title_schedule h2{
+	text-align: center;
+	margin-left: 40px;
+}
+.title_schedule
+{
+    padding-left: 2%;
+    text-align: left;
+    background-color: #2d2188;
+    position: fixed;
+    width: 100%;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    display: flex;
+
+
+}
+.detail_schedule:hover
+{
+    background-color: rgb(78, 78, 78);
+    color: white;
+    cursor: pointer;
+    
+}
+.delete_row_button
+{
+	width: 7%;
+	height: 30px;
+	left : 77%;
+	position: absolute;
+	top: 100px;
+	background-color: #ffbbbb;
+	border: 1px solid red; 
+	
+}
+.compl_row_button
+{
+
+	width: 5%;
+	height: 30px;
+	left:70%;
+	position: absolute;
+	top: 100px;
+	background-color: rgb(171, 171, 241);
+	border: 1px solid rgb(0, 0, 255); 
+	
+}
+.delete_row_button:hover {
+	background-color: #ff5b5b;
+	border: 1px solid red;
+	cursor: pointer;
+}
+.compl_row_button:hover {
+	
+	cursor: pointer;
+	background-color: #5e5eff;
+}
+.selectForm
+{
+	width: auto;
+	height: 30px;
+	left:18%;
+	position: absolute;
+	top: 100px;
+	background-color:  #d9f3fc;
+	border: 1px solid #adadad; 
+	color:black;
+	font-weight: 700;
+	font-family: serif;
+}
+.select2
+{
+	left:26%;
+}
+.filter
+{
+	left:15%;
+	position: absolute;
+	top: 100px;
+	width: 30px;
+	height: 30px;
+}
